@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #7EC0EE;
+}
+
+.cloudBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://ptb.discordapp.com/assets/98e7433a3653b861949219fbac95b6af.svg");
+    background-repeat: repeat;
+    background-size: 64px;
+    animation-name: backgroundFloat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes backgroundFloat {
+    from { background-position: 64px 64px; }
+}
